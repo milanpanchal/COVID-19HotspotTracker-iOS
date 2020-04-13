@@ -203,7 +203,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DeU-Da-7D1">
-                                <rect key="frame" x="20" y="267.5" width="374" height="140"/>
+                                <rect key="frame" x="20" y="257.5" width="374" height="140"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="start_tracking_icon" translatesAutoresizingMaskIntoConstraints="NO" id="F57-zF-g8r">
                                         <rect key="frame" x="12" y="12" width="50" height="50"/>
@@ -238,19 +238,29 @@
                                         </attributedString>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z0F-Ej-PMF">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="140"/>
+                                        <connections>
+                                            <segue destination="gSl-be-RdZ" kind="show" id="S4Q-f9-OzO"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="g5z-4n-lzY" secondAttribute="trailing" constant="10" id="6HZ-b5-z6Y"/>
                                     <constraint firstAttribute="bottom" secondItem="g5z-4n-lzY" secondAttribute="bottom" constant="10" id="JcA-An-ZG2"/>
+                                    <constraint firstItem="Z0F-Ej-PMF" firstAttribute="width" secondItem="DeU-Da-7D1" secondAttribute="width" id="PZz-bd-7r4"/>
                                     <constraint firstItem="g5z-4n-lzY" firstAttribute="top" secondItem="F57-zF-g8r" secondAttribute="top" id="WFK-Nn-fsL"/>
                                     <constraint firstItem="F57-zF-g8r" firstAttribute="top" secondItem="DeU-Da-7D1" secondAttribute="top" constant="12" id="Zv0-Op-s36"/>
+                                    <constraint firstItem="Z0F-Ej-PMF" firstAttribute="height" secondItem="DeU-Da-7D1" secondAttribute="height" id="a0o-tb-BZT"/>
+                                    <constraint firstItem="Z0F-Ej-PMF" firstAttribute="centerX" secondItem="DeU-Da-7D1" secondAttribute="centerX" id="fCl-tk-gP8"/>
                                     <constraint firstItem="g5z-4n-lzY" firstAttribute="leading" secondItem="F57-zF-g8r" secondAttribute="trailing" constant="12" id="oWx-Yj-UQQ"/>
+                                    <constraint firstItem="Z0F-Ej-PMF" firstAttribute="centerY" secondItem="DeU-Da-7D1" secondAttribute="centerY" id="toH-x2-ea4"/>
                                     <constraint firstItem="F57-zF-g8r" firstAttribute="leading" secondItem="DeU-Da-7D1" secondAttribute="leading" constant="12" id="uH1-Q6-OOj"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PNg-D7-DBV">
-                                <rect key="frame" x="20" y="432.5" width="374" height="140"/>
+                                <rect key="frame" x="20" y="417.5" width="374" height="121"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="near_by_affected_places" translatesAutoresizingMaskIntoConstraints="NO" id="fFy-P2-EXu">
                                         <rect key="frame" x="12" y="12" width="50" height="50"/>
@@ -260,7 +270,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YP5-ba-OSW">
-                                        <rect key="frame" x="74" y="12" width="290" height="118"/>
+                                        <rect key="frame" x="74" y="12" width="290" height="99"/>
                                         <attributedString key="attributedText">
                                             <fragment content="List of affected places in the City">
                                                 <attributes>
@@ -281,7 +291,7 @@
                                                 </attributes>
                                             </fragment>
                                             <fragment>
-                                                <string key="content">Before going out of your house to visit a place just select this option. We will notify you if you are nearing any COVID-19 affected area. </string>
+                                                <string key="content">Before going out of your house to visit a place just select this option. We will notify you if you are nearing any COVID-19 affected area.</string>
                                                 <attributes>
                                                     <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                     <font key="NSFont" size="15" name="Helvetica"/>
@@ -302,6 +312,68 @@
                                     <constraint firstAttribute="trailing" secondItem="YP5-ba-OSW" secondAttribute="trailing" constant="10" id="ydB-FQ-O4g"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8zA-Nr-Hgr">
+                                <rect key="frame" x="20" y="558.5" width="374" height="101.5"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="myth_buster_64" translatesAutoresizingMaskIntoConstraints="NO" id="6UV-Uc-FUK">
+                                        <rect key="frame" x="12" y="12" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="7LG-CH-hcZ"/>
+                                            <constraint firstAttribute="height" constant="50" id="df5-xf-LtS"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7dV-9I-69A">
+                                        <rect key="frame" x="74" y="12" width="290" height="79.5"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="COVID-19 Myth Busters">
+                                                <attributes>
+                                                    <font key="NSFont" size="16" name="Helvetica-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="2" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content=" ">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="user" size="13"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="2" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content=" ">
+                                                <attributes>
+                                                    <font key="NSFont" size="1" name="Helvetica"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="2" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="Checkout facts and myth about COVID-19 Virus. ">
+                                                <attributes>
+                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                    <font key="NSFont" size="15" name="Helvetica"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="2" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kt1-Mj-71H">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="101.5"/>
+                                        <connections>
+                                            <segue destination="rTS-rK-PNE" kind="show" id="Woq-nF-xIQ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="kt1-Mj-71H" firstAttribute="height" secondItem="8zA-Nr-Hgr" secondAttribute="height" id="CIl-aU-Dh3"/>
+                                    <constraint firstItem="7dV-9I-69A" firstAttribute="leading" secondItem="6UV-Uc-FUK" secondAttribute="trailing" constant="12" id="J0P-Ox-aPs"/>
+                                    <constraint firstItem="kt1-Mj-71H" firstAttribute="width" secondItem="8zA-Nr-Hgr" secondAttribute="width" id="ODi-Nm-7ME"/>
+                                    <constraint firstItem="6UV-Uc-FUK" firstAttribute="top" secondItem="8zA-Nr-Hgr" secondAttribute="top" constant="12" id="RhG-2f-JF6"/>
+                                    <constraint firstItem="6UV-Uc-FUK" firstAttribute="leading" secondItem="8zA-Nr-Hgr" secondAttribute="leading" constant="12" id="f1a-16-Mac"/>
+                                    <constraint firstAttribute="trailing" secondItem="7dV-9I-69A" secondAttribute="trailing" constant="10" id="iD8-YQ-YbX"/>
+                                    <constraint firstItem="7dV-9I-69A" firstAttribute="top" secondItem="6UV-Uc-FUK" secondAttribute="top" id="oTc-gl-NgW"/>
+                                    <constraint firstItem="kt1-Mj-71H" firstAttribute="centerX" secondItem="8zA-Nr-Hgr" secondAttribute="centerX" id="u8a-cr-dBU"/>
+                                    <constraint firstAttribute="bottom" secondItem="7dV-9I-69A" secondAttribute="bottom" constant="10" id="xyk-Xq-qy8"/>
+                                    <constraint firstItem="kt1-Mj-71H" firstAttribute="centerY" secondItem="8zA-Nr-Hgr" secondAttribute="centerY" id="zSA-1w-IS6"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.89803921568627454" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -309,11 +381,14 @@
                             <constraint firstItem="DeU-Da-7D1" firstAttribute="leading" secondItem="zLG-0i-RIh" secondAttribute="leading" id="99E-Sq-CUd"/>
                             <constraint firstItem="DeU-Da-7D1" firstAttribute="trailing" secondItem="zLG-0i-RIh" secondAttribute="trailing" id="9Y1-Gl-3cz"/>
                             <constraint firstItem="zLG-0i-RIh" firstAttribute="top" secondItem="XQK-rp-OZV" secondAttribute="bottom" constant="12" id="DfI-Ur-hDm"/>
+                            <constraint firstItem="8zA-Nr-Hgr" firstAttribute="leading" secondItem="PNg-D7-DBV" secondAttribute="leading" id="H91-SN-OKJ"/>
                             <constraint firstItem="XQK-rp-OZV" firstAttribute="top" secondItem="SNv-mO-agg" secondAttribute="top" constant="20" id="Mmx-iw-xsB"/>
-                            <constraint firstItem="DeU-Da-7D1" firstAttribute="top" secondItem="zLG-0i-RIh" secondAttribute="bottom" constant="30" id="Pqa-kk-hW4"/>
+                            <constraint firstItem="DeU-Da-7D1" firstAttribute="top" secondItem="zLG-0i-RIh" secondAttribute="bottom" constant="20" id="Pqa-kk-hW4"/>
                             <constraint firstItem="PNg-D7-DBV" firstAttribute="trailing" secondItem="DeU-Da-7D1" secondAttribute="trailing" id="RKQ-sP-U6M"/>
                             <constraint firstItem="zLG-0i-RIh" firstAttribute="leading" secondItem="XQK-rp-OZV" secondAttribute="leading" id="SL3-c5-Igg"/>
-                            <constraint firstItem="PNg-D7-DBV" firstAttribute="top" secondItem="DeU-Da-7D1" secondAttribute="bottom" constant="25" id="bla-VV-nrC"/>
+                            <constraint firstItem="8zA-Nr-Hgr" firstAttribute="top" secondItem="PNg-D7-DBV" secondAttribute="bottom" constant="20" id="UaF-4q-aqs"/>
+                            <constraint firstItem="8zA-Nr-Hgr" firstAttribute="trailing" secondItem="PNg-D7-DBV" secondAttribute="trailing" id="Vmd-G8-gqr"/>
+                            <constraint firstItem="PNg-D7-DBV" firstAttribute="top" secondItem="DeU-Da-7D1" secondAttribute="bottom" constant="20" id="bla-VV-nrC"/>
                             <constraint firstItem="PNg-D7-DBV" firstAttribute="leading" secondItem="DeU-Da-7D1" secondAttribute="leading" id="dDU-t4-yzF"/>
                             <constraint firstItem="XQK-rp-OZV" firstAttribute="leading" secondItem="SNv-mO-agg" secondAttribute="leading" constant="20" id="juq-Sn-cYu"/>
                             <constraint firstItem="SNv-mO-agg" firstAttribute="trailing" secondItem="XQK-rp-OZV" secondAttribute="trailing" constant="20" id="mJV-Qq-KhE"/>
@@ -325,12 +400,145 @@
                     </navigationItem>
                     <connections>
                         <outlet property="affectedPlacesView" destination="PNg-D7-DBV" id="FQT-nc-KV6"/>
+                        <outlet property="mythBusterView" destination="8zA-Nr-Hgr" id="H4i-HD-k2g"/>
                         <outlet property="startTrackingView" destination="DeU-Da-7D1" id="RKX-NQ-Lym"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gjh-aS-Oel" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2604" y="127"/>
+        </scene>
+        <!--Myth Buster View Controller-->
+        <scene sceneID="vi8-Cd-Csr">
+            <objects>
+                <viewController storyboardIdentifier="MythBusterViewController" id="rTS-rK-PNE" customClass="MythBusterViewController" customModule="COVID_19_Hotspot_Tracker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xp2-kN-Mdj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="j2k-Kr-XSt">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MythBusterTableViewCell" textLabel="71c-Nt-1VW" detailTextLabel="cA0-xz-PSb" style="IBUITableViewCellStyleSubtitle" id="JDj-lN-kSR" customClass="MythBusterTableViewCell" customModule="COVID_19_Hotspot_Tracker" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="55.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JDj-lN-kSR" id="IJY-Na-fbg">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="55.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="71c-Nt-1VW">
+                                                    <rect key="frame" x="20" y="10" width="33.5" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cA0-xz-PSb">
+                                                    <rect key="frame" x="20" y="31.5" width="44" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="RVz-im-Yoo" firstAttribute="bottom" secondItem="j2k-Kr-XSt" secondAttribute="bottom" id="H48-aU-jz6"/>
+                            <constraint firstItem="j2k-Kr-XSt" firstAttribute="leading" secondItem="RVz-im-Yoo" secondAttribute="leading" id="I7V-pB-0gp"/>
+                            <constraint firstItem="RVz-im-Yoo" firstAttribute="trailing" secondItem="j2k-Kr-XSt" secondAttribute="trailing" id="X77-uT-nmZ"/>
+                            <constraint firstItem="j2k-Kr-XSt" firstAttribute="top" secondItem="RVz-im-Yoo" secondAttribute="top" id="muR-U3-XXh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RVz-im-Yoo"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="VuT-hp-gNy"/>
+                    <connections>
+                        <outlet property="mythBusterTableView" destination="j2k-Kr-XSt" id="hin-9K-LDC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZFI-Qe-x2d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2603" y="797"/>
+        </scene>
+        <!--Tracking in Progress-->
+        <scene sceneID="9gd-ra-0ZD">
+            <objects>
+                <viewController storyboardIdentifier="TrackingViewController" id="gSl-be-RdZ" customClass="TrackingViewController" customModule="COVID_19_Hotspot_Tracker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SaI-gv-Nbn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="corona" translatesAutoresizingMaskIntoConstraints="NO" id="YVn-d3-dQx">
+                                <rect key="frame" x="144.5" y="118" width="125" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="YVn-d3-dQx" secondAttribute="height" multiplier="1:1" id="Lou-tG-btn"/>
+                                    <constraint firstAttribute="width" constant="125" id="Zec-O8-KdN"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Orange Zone" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gnC-Vv-HM3">
+                                <rect key="frame" x="15" y="273" width="384" height="29"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pwi-xR-t8b">
+                                <rect key="frame" x="15" y="312" width="384" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="20g-JI-kXn">
+                                <rect key="frame" x="12" y="816" width="390" height="50"/>
+                                <color key="backgroundColor" red="0.2691196501" green="0.70793044569999997" blue="0.96516519779999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="GlW-dC-r13"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Stop Tracking">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="didTapOnStopTrackingBtn:" destination="gSl-be-RdZ" eventType="touchUpInside" id="jZI-zh-PpP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="20g-JI-kXn" secondAttribute="bottom" constant="30" id="75A-12-QXr"/>
+                            <constraint firstItem="20g-JI-kXn" firstAttribute="leading" secondItem="SaI-gv-Nbn" secondAttribute="leading" constant="12" id="FAT-o4-V1R"/>
+                            <constraint firstItem="pwi-xR-t8b" firstAttribute="leading" secondItem="gnC-Vv-HM3" secondAttribute="leading" id="JJT-it-fQy"/>
+                            <constraint firstItem="gnC-Vv-HM3" firstAttribute="top" secondItem="YVn-d3-dQx" secondAttribute="bottom" constant="30" id="LC4-Sd-aOg"/>
+                            <constraint firstItem="pwi-xR-t8b" firstAttribute="trailing" secondItem="gnC-Vv-HM3" secondAttribute="trailing" id="QF8-5c-Jt4"/>
+                            <constraint firstAttribute="trailing" secondItem="20g-JI-kXn" secondAttribute="trailing" constant="12" id="Sd2-X3-eKx"/>
+                            <constraint firstItem="xkH-HK-nfd" firstAttribute="trailing" secondItem="gnC-Vv-HM3" secondAttribute="trailing" constant="15" id="Szc-MT-E91"/>
+                            <constraint firstItem="pwi-xR-t8b" firstAttribute="top" secondItem="gnC-Vv-HM3" secondAttribute="bottom" constant="10" id="ZTN-SB-xaD"/>
+                            <constraint firstItem="gnC-Vv-HM3" firstAttribute="leading" secondItem="xkH-HK-nfd" secondAttribute="leading" constant="15" id="pXZ-EP-kOi"/>
+                            <constraint firstItem="YVn-d3-dQx" firstAttribute="centerX" secondItem="SaI-gv-Nbn" secondAttribute="centerX" id="t23-Cj-MOP"/>
+                            <constraint firstItem="YVn-d3-dQx" firstAttribute="top" secondItem="xkH-HK-nfd" secondAttribute="top" constant="30" id="xBh-uL-oDc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xkH-HK-nfd"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tracking in Progress" id="fh3-kP-5zj">
+                        <barButtonItem key="backBarButtonItem" title=" " id="wkF-LL-WNP"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="imgView" destination="YVn-d3-dQx" id="vr5-mJ-M7r"/>
+                        <outlet property="zoneInfoLbl" destination="pwi-xR-t8b" id="SJI-fP-9u3"/>
+                        <outlet property="zoneNameLbl" destination="gnC-Vv-HM3" id="pCd-Oe-3Uc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iDj-uu-jGm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3386.9565217391305" y="126.5625"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YPD-E7-wIB">
@@ -355,6 +563,8 @@
     <resources>
         <image name="Splash Logo" width="192" height="192"/>
         <image name="arrow.left.circle" catalog="system" width="64" height="60"/>
+        <image name="corona" width="128" height="128"/>
+        <image name="myth_buster_64" width="64" height="64.5"/>
         <image name="near_by_affected_places" width="64" height="64"/>
         <image name="start_tracking_icon" width="64" height="64"/>
     </resources>

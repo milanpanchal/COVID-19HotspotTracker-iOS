@@ -32,6 +32,8 @@
 		E04B291524448CD9007272AE /* MythBuster.json in Resources */ = {isa = PBXBuildFile; fileRef = E04B291424448CD8007272AE /* MythBuster.json */; };
 		E04B291724448D1A007272AE /* MythBusterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04B291624448D1A007272AE /* MythBusterModel.swift */; };
 		E04B291924449D80007272AE /* TrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04B291824449D80007272AE /* TrackingViewController.swift */; };
+		E04B291B2444B017007272AE /* MythBusterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04B291A2444B017007272AE /* MythBusterViewController.swift */; };
+		E04B291D2444B0FE007272AE /* MythBusterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04B291C2444B0FE007272AE /* MythBusterTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,8 @@
 		E04B291424448CD8007272AE /* MythBuster.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MythBuster.json; sourceTree = "<group>"; };
 		E04B291624448D1A007272AE /* MythBusterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MythBusterModel.swift; sourceTree = "<group>"; };
 		E04B291824449D80007272AE /* TrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingViewController.swift; sourceTree = "<group>"; };
+		E04B291A2444B017007272AE /* MythBusterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MythBusterViewController.swift; sourceTree = "<group>"; };
+		E04B291C2444B0FE007272AE /* MythBusterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MythBusterTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,7 @@
 				E03699E1244445AF008EFDD3 /* CityListViewController.swift */,
 				E04B2903244473B7007272AE /* HomeViweController.swift */,
 				E04B291824449D80007272AE /* TrackingViewController.swift */,
+				E04B291A2444B017007272AE /* MythBusterViewController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				E04B290E24448430007272AE /* CityListTableViewCell.swift */,
+				E04B291C2444B0FE007272AE /* MythBusterTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -399,8 +405,10 @@
 				E04B2904244473B7007272AE /* HomeViweController.swift in Sources */,
 				E04B290224447254007272AE /* UIAlertController+Extension.swift in Sources */,
 				E03E2FDA2443B690003AB672 /* SceneDelegate.swift in Sources */,
+				E04B291B2444B017007272AE /* MythBusterViewController.swift in Sources */,
 				E04B28FE24446D69007272AE /* UIColor+Extension.swift in Sources */,
 				E04B290F24448430007272AE /* CityListTableViewCell.swift in Sources */,
+				E04B291D2444B0FE007272AE /* MythBusterTableViewCell.swift in Sources */,
 				E04B290024446D8C007272AE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

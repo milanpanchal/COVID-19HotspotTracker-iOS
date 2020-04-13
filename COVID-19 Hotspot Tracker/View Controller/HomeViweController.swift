@@ -14,6 +14,7 @@ class HomeViweController: UIViewController {
 
     @IBOutlet weak private var startTrackingView: UIView!
     @IBOutlet weak private var affectedPlacesView: UIView!
+    @IBOutlet weak private var mythBusterView: UIView!
 
     // MARK: - View controller life cycle methods
 
@@ -26,6 +27,7 @@ class HomeViweController: UIViewController {
         
         startTrackingView.addShadow()
         affectedPlacesView.addShadow()
+        mythBusterView.addShadow()
 
     }
     
