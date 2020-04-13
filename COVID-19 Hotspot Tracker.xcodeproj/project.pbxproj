@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E03699E024444593008EFDD3 /* MaharashtraCityList.json in Resources */ = {isa = PBXBuildFile; fileRef = E03699DF24444593008EFDD3 /* MaharashtraCityList.json */; };
+		E03699E2244445AF008EFDD3 /* CityListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03699E1244445AF008EFDD3 /* CityListViewController.swift */; };
+		E03699E724445666008EFDD3 /* GlobalUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03699E624445666008EFDD3 /* GlobalUtility.swift */; };
+		E03699EB244460B9008EFDD3 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03699EA244460B9008EFDD3 /* UIDevice+Extension.swift */; };
+		E03E2FD82443B690003AB672 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03E2FD72443B690003AB672 /* AppDelegate.swift */; };
+		E03E2FDA2443B690003AB672 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03E2FD92443B690003AB672 /* SceneDelegate.swift */; };
+		E03E2FDC2443B690003AB672 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03E2FDB2443B690003AB672 /* LandingViewController.swift */; };
+		E03E2FDF2443B690003AB672 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E03E2FDD2443B690003AB672 /* Main.storyboard */; };
+		E03E2FE22443B690003AB672 /* COVID_19_Hotspot_Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E03E2FE02443B690003AB672 /* COVID_19_Hotspot_Tracker.xcdatamodeld */; };
+		E03E2FE42443B69B003AB672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E03E2FE32443B69B003AB672 /* Assets.xcassets */; };
+		E03E2FE72443B69B003AB672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E03E2FE52443B69B003AB672 /* LaunchScreen.storyboard */; };
+		E03E2FF22443B69B003AB672 /* COVID_19_Hotspot_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03E2FF12443B69B003AB672 /* COVID_19_Hotspot_TrackerTests.swift */; };
+		E03E2FFD2443B69B003AB672 /* COVID_19_Hotspot_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03E2FFC2443B69B003AB672 /* COVID_19_Hotspot_TrackerUITests.swift */; };
+		E04B28FE24446D69007272AE /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04B28FD24446D69007272AE /* UIColor+Extension.swift */; };
+		E04B290024446D8C007272AE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04B28FF24446D8C007272AE /* Constants.swift */; };
+		E04B290224447254007272AE /* UIAlertController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04B290124447254007272AE /* UIAlertController+Extension.swift */; };
+		E04B2904244473B7007272AE /* HomeViweController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04B2903244473B7007272AE /* HomeViweController.swift */; };
+		E04B290624447B81007272AE /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04B290524447B81007272AE /* UIView+Extension.swift */; };
+		E04B290824447F80007272AE /* NSObjectProtocol+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04B290724447F80007272AE /* NSObjectProtocol+Extension.swift */; };
+		E04B290F24448430007272AE /* CityListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04B290E24448430007272AE /* CityListTableViewCell.swift */; };
+		E04B291124448494007272AE /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04B291024448494007272AE /* CityModel.swift */; };
+		E04B291324448842007272AE /* CityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04B291224448842007272AE /* CityViewModel.swift */; };
+		E04B291524448CD9007272AE /* MythBuster.json in Resources */ = {isa = PBXBuildFile; fileRef = E04B291424448CD8007272AE /* MythBuster.json */; };
+		E04B291724448D1A007272AE /* MythBusterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04B291624448D1A007272AE /* MythBusterModel.swift */; };
+		E04B291924449D80007272AE /* TrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04B291824449D80007272AE /* TrackingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E03E2FEE2443B69B003AB672 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E03E2FCC2443B690003AB672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E03E2FD32443B690003AB672;
+			remoteInfo = "COVID-19 Hotspot Tracker";
+		};
+		E03E2FF92443B69B003AB672 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E03E2FCC2443B690003AB672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E03E2FD32443B690003AB672;
+			remoteInfo = "COVID-19 Hotspot Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E03699DF24444593008EFDD3 /* MaharashtraCityList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MaharashtraCityList.json; sourceTree = "<group>"; };
+		E03699E1244445AF008EFDD3 /* CityListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListViewController.swift; sourceTree = "<group>"; };
+		E03699E624445666008EFDD3 /* GlobalUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalUtility.swift; sourceTree = "<group>"; };
+		E03699EA244460B9008EFDD3 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
+		E03E2FD42443B690003AB672 /* COVID-19 Hotspot Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COVID-19 Hotspot Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E03E2FD72443B690003AB672 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E03E2FD92443B690003AB672 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E03E2FDB2443B690003AB672 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		E03E2FDE2443B690003AB672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E03E2FE12443B690003AB672 /* COVID_19_Hotspot_Tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = COVID_19_Hotspot_Tracker.xcdatamodel; sourceTree = "<group>"; };
+		E03E2FE32443B69B003AB672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E03E2FE62443B69B003AB672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E03E2FE82443B69B003AB672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E03E2FED2443B69B003AB672 /* COVID-19 Hotspot TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COVID-19 Hotspot TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E03E2FF12443B69B003AB672 /* COVID_19_Hotspot_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COVID_19_Hotspot_TrackerTests.swift; sourceTree = "<group>"; };
+		E03E2FF32443B69B003AB672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E03E2FF82443B69B003AB672 /* COVID-19 Hotspot TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COVID-19 Hotspot TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E03E2FFC2443B69B003AB672 /* COVID_19_Hotspot_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COVID_19_Hotspot_TrackerUITests.swift; sourceTree = "<group>"; };
+		E03E2FFE2443B69B003AB672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E04B28FD24446D69007272AE /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		E04B28FF24446D8C007272AE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E04B290124447254007272AE /* UIAlertController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extension.swift"; sourceTree = "<group>"; };
+		E04B2903244473B7007272AE /* HomeViweController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViweController.swift; sourceTree = "<group>"; };
+		E04B290524447B81007272AE /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		E04B290724447F80007272AE /* NSObjectProtocol+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObjectProtocol+Extension.swift"; sourceTree = "<group>"; };
+		E04B290E24448430007272AE /* CityListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListTableViewCell.swift; sourceTree = "<group>"; };
+		E04B291024448494007272AE /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
+		E04B291224448842007272AE /* CityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewModel.swift; sourceTree = "<group>"; };
+		E04B291424448CD8007272AE /* MythBuster.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MythBuster.json; sourceTree = "<group>"; };
+		E04B291624448D1A007272AE /* MythBusterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MythBusterModel.swift; sourceTree = "<group>"; };
+		E04B291824449D80007272AE /* TrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E03E2FD12443B690003AB672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E03E2FEA2443B69B003AB672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E03E2FF52443B69B003AB672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E03699E32444546D008EFDD3 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E03E2FD72443B690003AB672 /* AppDelegate.swift */,
+				E03E2FD92443B690003AB672 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		E03699E42444547C008EFDD3 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E03E2FDB2443B690003AB672 /* LandingViewController.swift */,
+				E03699E1244445AF008EFDD3 /* CityListViewController.swift */,
+				E04B2903244473B7007272AE /* HomeViweController.swift */,
+				E04B291824449D80007272AE /* TrackingViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		E03699E52444549C008EFDD3 /* API Response */ = {
+			isa = PBXGroup;
+			children = (
+				E04B291424448CD8007272AE /* MythBuster.json */,
+				E03699DF24444593008EFDD3 /* MaharashtraCityList.json */,
+			);
+			path = "API Response";
+			sourceTree = "<group>";
+		};
+		E03699E82444566E008EFDD3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E03699E624445666008EFDD3 /* GlobalUtility.swift */,
+				E04B28FF24446D8C007272AE /* Constants.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E03699E9244460A7008EFDD3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E03699EA244460B9008EFDD3 /* UIDevice+Extension.swift */,
+				E04B28FD24446D69007272AE /* UIColor+Extension.swift */,
+				E04B290124447254007272AE /* UIAlertController+Extension.swift */,
+				E04B290524447B81007272AE /* UIView+Extension.swift */,
+				E04B290724447F80007272AE /* NSObjectProtocol+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E03E2FCB2443B690003AB672 = {
+			isa = PBXGroup;
+			children = (
+				E03E2FD62443B690003AB672 /* COVID-19 Hotspot Tracker */,
+				E03E2FF02443B69B003AB672 /* COVID-19 Hotspot TrackerTests */,
+				E03E2FFB2443B69B003AB672 /* COVID-19 Hotspot TrackerUITests */,
+				E03E2FD52443B690003AB672 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E03E2FD52443B690003AB672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E03E2FD42443B690003AB672 /* COVID-19 Hotspot Tracker.app */,
+				E03E2FED2443B69B003AB672 /* COVID-19 Hotspot TrackerTests.xctest */,
+				E03E2FF82443B69B003AB672 /* COVID-19 Hotspot TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E03E2FD62443B690003AB672 /* COVID-19 Hotspot Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				E03699E32444546D008EFDD3 /* Application */,
+				E03699E9244460A7008EFDD3 /* Extension */,
+				E03699E82444566E008EFDD3 /* Helper */,
+				E04B290B244483EF007272AE /* Model */,
+				E04B2909244483D5007272AE /* View */,
+				E04B290A244483E4007272AE /* ViewModel */,
+				E03699E42444547C008EFDD3 /* View Controller */,
+				E03699E52444549C008EFDD3 /* API Response */,
+				E03E300A2443BB80003AB672 /* Storyboard */,
+				E03E2FE32443B69B003AB672 /* Assets.xcassets */,
+				E03E2FE82443B69B003AB672 /* Info.plist */,
+				E03E2FE02443B690003AB672 /* COVID_19_Hotspot_Tracker.xcdatamodeld */,
+			);
+			path = "COVID-19 Hotspot Tracker";
+			sourceTree = "<group>";
+		};
+		E03E2FF02443B69B003AB672 /* COVID-19 Hotspot TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E03E2FF12443B69B003AB672 /* COVID_19_Hotspot_TrackerTests.swift */,
+				E03E2FF32443B69B003AB672 /* Info.plist */,
+			);
+			path = "COVID-19 Hotspot TrackerTests";
+			sourceTree = "<group>";
+		};
+		E03E2FFB2443B69B003AB672 /* COVID-19 Hotspot TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E03E2FFC2443B69B003AB672 /* COVID_19_Hotspot_TrackerUITests.swift */,
+				E03E2FFE2443B69B003AB672 /* Info.plist */,
+			);
+			path = "COVID-19 Hotspot TrackerUITests";
+			sourceTree = "<group>";
+		};
+		E03E300A2443BB80003AB672 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E03E2FDD2443B690003AB672 /* Main.storyboard */,
+				E03E2FE52443B69B003AB672 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		E04B2909244483D5007272AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E04B290E24448430007272AE /* CityListTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E04B290A244483E4007272AE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E04B291224448842007272AE /* CityViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E04B290B244483EF007272AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E04B291024448494007272AE /* CityModel.swift */,
+				E04B291624448D1A007272AE /* MythBusterModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E03E2FD32443B690003AB672 /* COVID-19 Hotspot Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E03E30012443B69B003AB672 /* Build configuration list for PBXNativeTarget "COVID-19 Hotspot Tracker" */;
+			buildPhases = (
+				E03E2FD02443B690003AB672 /* Sources */,
+				E03E2FD12443B690003AB672 /* Frameworks */,
+				E03E2FD22443B690003AB672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "COVID-19 Hotspot Tracker";
+			productName = "COVID-19 Hotspot Tracker";
+			productReference = E03E2FD42443B690003AB672 /* COVID-19 Hotspot Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E03E2FEC2443B69B003AB672 /* COVID-19 Hotspot TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E03E30042443B69B003AB672 /* Build configuration list for PBXNativeTarget "COVID-19 Hotspot TrackerTests" */;
+			buildPhases = (
+				E03E2FE92443B69B003AB672 /* Sources */,
+				E03E2FEA2443B69B003AB672 /* Frameworks */,
+				E03E2FEB2443B69B003AB672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E03E2FEF2443B69B003AB672 /* PBXTargetDependency */,
+			);
+			name = "COVID-19 Hotspot TrackerTests";
+			productName = "COVID-19 Hotspot TrackerTests";
+			productReference = E03E2FED2443B69B003AB672 /* COVID-19 Hotspot TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E03E2FF72443B69B003AB672 /* COVID-19 Hotspot TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E03E30072443B69B003AB672 /* Build configuration list for PBXNativeTarget "COVID-19 Hotspot TrackerUITests" */;
+			buildPhases = (
+				E03E2FF42443B69B003AB672 /* Sources */,
+				E03E2FF52443B69B003AB672 /* Frameworks */,
+				E03E2FF62443B69B003AB672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E03E2FFA2443B69B003AB672 /* PBXTargetDependency */,
+			);
+			name = "COVID-19 Hotspot TrackerUITests";
+			productName = "COVID-19 Hotspot TrackerUITests";
+			productReference = E03E2FF82443B69B003AB672 /* COVID-19 Hotspot TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E03E2FCC2443B690003AB672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Milan Panhcal";
+				TargetAttributes = {
+					E03E2FD32443B690003AB672 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					E03E2FEC2443B69B003AB672 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = E03E2FD32443B690003AB672;
+					};
+					E03E2FF72443B69B003AB672 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = E03E2FD32443B690003AB672;
+					};
+				};
+			};
+			buildConfigurationList = E03E2FCF2443B690003AB672 /* Build configuration list for PBXProject "COVID-19 Hotspot Tracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E03E2FCB2443B690003AB672;
+			productRefGroup = E03E2FD52443B690003AB672 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E03E2FD32443B690003AB672 /* COVID-19 Hotspot Tracker */,
+				E03E2FEC2443B69B003AB672 /* COVID-19 Hotspot TrackerTests */,
+				E03E2FF72443B69B003AB672 /* COVID-19 Hotspot TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E03E2FD22443B690003AB672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E03E2FE72443B69B003AB672 /* LaunchScreen.storyboard in Resources */,
+				E03699E024444593008EFDD3 /* MaharashtraCityList.json in Resources */,
+				E03E2FE42443B69B003AB672 /* Assets.xcassets in Resources */,
+				E03E2FDF2443B690003AB672 /* Main.storyboard in Resources */,
+				E04B291524448CD9007272AE /* MythBuster.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E03E2FEB2443B69B003AB672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E03E2FF62443B69B003AB672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E03E2FD02443B690003AB672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E03E2FDC2443B690003AB672 /* LandingViewController.swift in Sources */,
+				E03699EB244460B9008EFDD3 /* UIDevice+Extension.swift in Sources */,
+				E03E2FD82443B690003AB672 /* AppDelegate.swift in Sources */,
+				E04B291324448842007272AE /* CityViewModel.swift in Sources */,
+				E04B291724448D1A007272AE /* MythBusterModel.swift in Sources */,
+				E03E2FE22443B690003AB672 /* COVID_19_Hotspot_Tracker.xcdatamodeld in Sources */,
+				E03699E724445666008EFDD3 /* GlobalUtility.swift in Sources */,
+				E04B291124448494007272AE /* CityModel.swift in Sources */,
+				E03699E2244445AF008EFDD3 /* CityListViewController.swift in Sources */,
+				E04B291924449D80007272AE /* TrackingViewController.swift in Sources */,
+				E04B290624447B81007272AE /* UIView+Extension.swift in Sources */,
+				E04B290824447F80007272AE /* NSObjectProtocol+Extension.swift in Sources */,
+				E04B2904244473B7007272AE /* HomeViweController.swift in Sources */,
+				E04B290224447254007272AE /* UIAlertController+Extension.swift in Sources */,
+				E03E2FDA2443B690003AB672 /* SceneDelegate.swift in Sources */,
+				E04B28FE24446D69007272AE /* UIColor+Extension.swift in Sources */,
+				E04B290F24448430007272AE /* CityListTableViewCell.swift in Sources */,
+				E04B290024446D8C007272AE /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E03E2FE92443B69B003AB672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E03E2FF22443B69B003AB672 /* COVID_19_Hotspot_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E03E2FF42443B69B003AB672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E03E2FFD2443B69B003AB672 /* COVID_19_Hotspot_TrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E03E2FEF2443B69B003AB672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E03E2FD32443B690003AB672 /* COVID-19 Hotspot Tracker */;
+			targetProxy = E03E2FEE2443B69B003AB672 /* PBXContainerItemProxy */;
+		};
+		E03E2FFA2443B69B003AB672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E03E2FD32443B690003AB672 /* COVID-19 Hotspot Tracker */;
+			targetProxy = E03E2FF92443B69B003AB672 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E03E2FDD2443B690003AB672 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E03E2FDE2443B690003AB672 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E03E2FE52443B69B003AB672 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E03E2FE62443B69B003AB672 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E03E2FFF2443B69B003AB672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E03E30002443B69B003AB672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E03E30022443B69B003AB672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "COVID-19 Hotspot Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milanpanchal.COVID-19-Hotspot-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E03E30032443B69B003AB672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "COVID-19 Hotspot Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milanpanchal.COVID-19-Hotspot-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E03E30052443B69B003AB672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "COVID-19 Hotspot TrackerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milanpanchal.COVID-19-Hotspot-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COVID-19 Hotspot Tracker.app/COVID-19 Hotspot Tracker";
+			};
+			name = Debug;
+		};
+		E03E30062443B69B003AB672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "COVID-19 Hotspot TrackerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milanpanchal.COVID-19-Hotspot-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COVID-19 Hotspot Tracker.app/COVID-19 Hotspot Tracker";
+			};
+			name = Release;
+		};
+		E03E30082443B69B003AB672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "COVID-19 Hotspot TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milanpanchal.COVID-19-Hotspot-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "COVID-19 Hotspot Tracker";
+			};
+			name = Debug;
+		};
+		E03E30092443B69B003AB672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "COVID-19 Hotspot TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milanpanchal.COVID-19-Hotspot-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "COVID-19 Hotspot Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E03E2FCF2443B690003AB672 /* Build configuration list for PBXProject "COVID-19 Hotspot Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E03E2FFF2443B69B003AB672 /* Debug */,
+				E03E30002443B69B003AB672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E03E30012443B69B003AB672 /* Build configuration list for PBXNativeTarget "COVID-19 Hotspot Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E03E30022443B69B003AB672 /* Debug */,
+				E03E30032443B69B003AB672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E03E30042443B69B003AB672 /* Build configuration list for PBXNativeTarget "COVID-19 Hotspot TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E03E30052443B69B003AB672 /* Debug */,
+				E03E30062443B69B003AB672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E03E30072443B69B003AB672 /* Build configuration list for PBXNativeTarget "COVID-19 Hotspot TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E03E30082443B69B003AB672 /* Debug */,
+				E03E30092443B69B003AB672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E03E2FE02443B690003AB672 /* COVID_19_Hotspot_Tracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E03E2FE12443B690003AB672 /* COVID_19_Hotspot_Tracker.xcdatamodel */,
+			);
+			currentVersion = E03E2FE12443B690003AB672 /* COVID_19_Hotspot_Tracker.xcdatamodel */;
+			path = COVID_19_Hotspot_Tracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E03E2FCC2443B690003AB672 /* Project object */;
+}

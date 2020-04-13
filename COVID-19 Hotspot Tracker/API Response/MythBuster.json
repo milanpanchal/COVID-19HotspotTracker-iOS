@@ -1,0 +1,43 @@
+[
+   {
+      "que":"Fever, dry cough, sore throat, shortness of breath and tiredness are the most common Coronavirus symptoms.",
+       "ans":"Fact"
+       
+   },{
+      "que":"If you can hold your breath for 10 secs, you don't have Coronavirus.",
+       "ans":"Myth"
+       
+   },{
+      "que":"Smoking can increase your chances of contracting the virus.",
+       "ans":"Truth"
+       
+   },{
+      "que":"Coronavirus cannot be transmitted in hot climates.",
+       "ans":"Myth"
+       
+   },{
+      "que":"Mosquito bites can cause Coronavirus.",
+       "ans":"Myth"
+       
+   },{
+      "que":"Drinking water every 15 minutes will protect you from Coronavirus.",
+       "ans":"Myth"
+       
+   },{
+      "que":"Eating garlic can help you stay safe from Coronavirus",
+       "ans":"Myth"
+       
+   },{
+      "que":"Washing your hands often with soap for upto 20 sec, helps prevent the virus.",
+       "ans":"Fact"
+       
+   },{
+      "que":"Coronavirus affects the elderly. People under the age of 30 are safe from the virus.",
+       "ans":"Myth"
+       
+   },{
+      "que":"You have to be with someone for 10 minutes to catch the virus.",
+       "ans":"Myth"
+       
+   }
+]
