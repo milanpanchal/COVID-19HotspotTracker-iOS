@@ -13,14 +13,7 @@ COVID-19 Hotspot Tracker
 
 
 ## Preview
-
-<img src="Screenshots/1.png" height="480"/>
-<img src="Screenshots/2.png" height="480"/>
-<img src="Screenshots/3.png" height="480"/>
-<img src="Screenshots/4.png" height="480"/>
-<img src="Screenshots/5-3.png" height="480"/>
-<img src="Screenshots/6.png" height="480"/>
-
+<img src="Screenshots/COVID19 Hotspot Tracker.001.jpeg"/>
 
 ## Author
 
